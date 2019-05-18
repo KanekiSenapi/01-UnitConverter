@@ -10,7 +10,7 @@ public class UnitSurfaceTest {
 
     //Kilometre ->
     @Test
-    public void Kilometre2Metre2(){
+    public void KilometreMetre(){
         final double excepted = 1.0E+6;
 
         final double actual = new UnitSurface(1,"km2").build().toMetre();

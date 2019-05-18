@@ -1,7 +1,7 @@
 package pl.aogiri.challenges.unitconverter01.test;
 
-import org.junit.Assert;
-import org.junit.Test;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
 import pl.aogiri.challenges.unitconverter01.Units.UnitLength;
 
 
@@ -13,8 +13,8 @@ public class UnitLengthTest {
         final double excepted = 1000D;
 
         final double actual = new UnitLength(1,"km").build().toMetre();
-
-        Assert.assertEquals(excepted, actual, 0D);
+        
+        Assertions.assertEquals(excepted,actual);
     }
 
     @Test
@@ -23,7 +23,7 @@ public class UnitLengthTest {
 
         final double actual = new UnitLength(1,"km").build().toDecimetre();
 
-        Assert.assertEquals(excepted, actual, 0D);
+       Assertions.assertEquals(excepted,actual);
     }
 
     @Test
@@ -32,7 +32,7 @@ public class UnitLengthTest {
 
         final double actual = new UnitLength(1,"km").build().toCentimetre();
 
-        Assert.assertEquals(excepted, actual, 0D);
+       Assertions.assertEquals(excepted,actual);
     }
 
     @Test
@@ -41,7 +41,7 @@ public class UnitLengthTest {
 
         final double actual = new UnitLength(1,"km").build().toMillimetre();
 
-        Assert.assertEquals(excepted, actual, 0D);
+       Assertions.assertEquals(excepted,actual);
     }
 
 
@@ -52,7 +52,7 @@ public class UnitLengthTest {
 
         final double actual = new UnitLength(1,"m").build().toKilometre();
 
-        Assert.assertEquals(excepted, actual, 0D);
+       Assertions.assertEquals(excepted,actual);
     }
 
     @Test
@@ -61,7 +61,7 @@ public class UnitLengthTest {
 
         final double actual = new UnitLength(1,"m").build().toDecimetre();
 
-        Assert.assertEquals(excepted, actual, 0D);
+       Assertions.assertEquals(excepted,actual);
     }
 
     @Test
@@ -70,7 +70,7 @@ public class UnitLengthTest {
 
         final double actual = new UnitLength(1,"m").build().toCentimetre();
 
-        Assert.assertEquals(excepted, actual, 0D);
+       Assertions.assertEquals(excepted,actual);
     }
 
     @Test
@@ -79,7 +79,7 @@ public class UnitLengthTest {
 
         final double actual = new UnitLength(1,"m").build().toMillimetre();
 
-        Assert.assertEquals(excepted, actual, 0D);
+       Assertions.assertEquals(excepted,actual);
     }
 
 
@@ -90,7 +90,7 @@ public class UnitLengthTest {
 
         final double actual = new UnitLength(1,"dm").build().toKilometre();
 
-        Assert.assertEquals(excepted, actual, 0D);
+       Assertions.assertEquals(excepted,actual);
     }
 
     @Test
@@ -99,7 +99,7 @@ public class UnitLengthTest {
 
         final double actual = new UnitLength(1,"dm").build().toMetre();
 
-        Assert.assertEquals(excepted, actual, 0D);
+       Assertions.assertEquals(excepted,actual);
     }
 
     @Test
@@ -108,7 +108,7 @@ public class UnitLengthTest {
 
         final double actual = new UnitLength(1,"dm").build().toCentimetre();
 
-        Assert.assertEquals(excepted, actual, 0D);
+       Assertions.assertEquals(excepted,actual);
     }
 
     @Test
@@ -117,7 +117,7 @@ public class UnitLengthTest {
 
         final double actual = new UnitLength(1,"dm").build().toMillimetre();
 
-        Assert.assertEquals(excepted, actual, 0D);
+       Assertions.assertEquals(excepted,actual);
     }
 
     //Centimetre ->
@@ -127,7 +127,7 @@ public class UnitLengthTest {
 
         final double actual = new UnitLength(1,"cm").build().toKilometre();
 
-        Assert.assertEquals(excepted, actual, 0D);
+       Assertions.assertEquals(excepted,actual);
     }
 
     @Test
@@ -136,7 +136,7 @@ public class UnitLengthTest {
 
         final double actual = new UnitLength(1,"cm").build().toMetre();
 
-        Assert.assertEquals(excepted, actual, 0D);
+       Assertions.assertEquals(excepted,actual);
     }
 
     @Test
@@ -145,7 +145,7 @@ public class UnitLengthTest {
 
         final double actual = new UnitLength(1,"cm").build().toDecimetre();
 
-        Assert.assertEquals(excepted, actual, 0D);
+       Assertions.assertEquals(excepted,actual);
     }
 
     @Test
@@ -154,7 +154,7 @@ public class UnitLengthTest {
 
         final double actual = new UnitLength(1,"cm").build().toMillimetre();
 
-        Assert.assertEquals(excepted, actual, 0D);
+       Assertions.assertEquals(excepted,actual);
     }
 
     //Millimetre ->
@@ -164,7 +164,7 @@ public class UnitLengthTest {
 
         final double actual = new UnitLength(1,"mm").build().toKilometre();
 
-        Assert.assertEquals(excepted, actual, 0D);
+       Assertions.assertEquals(excepted,actual);
     }
 
     @Test
@@ -173,7 +173,7 @@ public class UnitLengthTest {
 
         final double actual = new UnitLength(1,"mm").build().toMetre();
 
-        Assert.assertEquals(excepted, actual, 0D);
+       Assertions.assertEquals(excepted,actual);
     }
 
     @Test
@@ -182,7 +182,7 @@ public class UnitLengthTest {
 
         final double actual = new UnitLength(1,"mm").build().toDecimetre();
 
-        Assert.assertEquals(excepted, actual, 0D);
+       Assertions.assertEquals(excepted,actual);
     }
 
     @Test
@@ -191,7 +191,7 @@ public class UnitLengthTest {
 
         final double actual = new UnitLength(1,"mm").build().toCentimetre();
 
-        Assert.assertEquals(excepted, actual, 0D);
+       Assertions.assertEquals(excepted,actual);
     }
 
 

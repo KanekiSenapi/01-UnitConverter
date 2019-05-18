@@ -1,9 +1,9 @@
 package pl.aogiri.challenges.unitconverter01.test;
 
-import org.junit.Assert;
-import org.junit.Test;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
 import pl.aogiri.challenges.unitconverter01.Units.UnitSurface;
-import pl.aogiri.challenges.unitconverter01.Units.UnitSurface;
+
 
 
 public class UnitSurfaceTest {
@@ -15,7 +15,7 @@ public class UnitSurfaceTest {
 
         final double actual = new UnitSurface(1,"km2").build().toMetre();
 
-        Assert.assertEquals(excepted, actual, 0D);
+        Assertions.assertEquals(excepted,actual);
     }
 
     @Test
@@ -24,7 +24,7 @@ public class UnitSurfaceTest {
 
         final double actual = new UnitSurface(1,"km2").build().toDecimetre();
 
-        Assert.assertEquals(excepted, actual, 0D);
+        Assertions.assertEquals(excepted,actual);
     }
 
     @Test
@@ -33,7 +33,7 @@ public class UnitSurfaceTest {
 
         final double actual = new UnitSurface(1,"km2").build().toCentimetre();
 
-        Assert.assertEquals(excepted, actual, 0D);
+        Assertions.assertEquals(excepted,actual);
     }
 
     @Test
@@ -42,7 +42,7 @@ public class UnitSurfaceTest {
 
         final double actual = new UnitSurface(1,"km2").build().toMillimetre();
 
-        Assert.assertEquals(excepted, actual, 0D);
+        Assertions.assertEquals(excepted,actual);
     }
 
 
@@ -53,7 +53,7 @@ public class UnitSurfaceTest {
 
         final double actual = new UnitSurface(1,"m2").build().toKilometre();
 
-        Assert.assertEquals(excepted, actual, 0D);
+        Assertions.assertEquals(excepted,actual);
     }
 
     @Test
@@ -62,7 +62,7 @@ public class UnitSurfaceTest {
 
         final double actual = new UnitSurface(1,"m2").build().toDecimetre();
 
-        Assert.assertEquals(excepted, actual, 0D);
+        Assertions.assertEquals(excepted,actual);
     }
 
     @Test
@@ -71,7 +71,7 @@ public class UnitSurfaceTest {
 
         final double actual = new UnitSurface(1,"m2").build().toCentimetre();
 
-        Assert.assertEquals(excepted, actual, 0D);
+        Assertions.assertEquals(excepted,actual);
     }
 
     @Test
@@ -80,7 +80,7 @@ public class UnitSurfaceTest {
 
         final double actual = new UnitSurface(1,"m2").build().toMillimetre();
 
-        Assert.assertEquals(excepted, actual, 0D);
+        Assertions.assertEquals(excepted,actual);
     }
 
 
@@ -91,7 +91,7 @@ public class UnitSurfaceTest {
 
         final double actual = new UnitSurface(1,"dm2").build().toKilometre();
 
-        Assert.assertEquals(excepted, actual, 0D);
+        Assertions.assertEquals(excepted,actual);
     }
 
     @Test
@@ -100,7 +100,7 @@ public class UnitSurfaceTest {
 
         final double actual = new UnitSurface(1,"dm2").build().toMetre();
 
-        Assert.assertEquals(excepted, actual, 0D);
+        Assertions.assertEquals(excepted,actual);
     }
 
     @Test
@@ -109,7 +109,7 @@ public class UnitSurfaceTest {
 
         final double actual = new UnitSurface(1,"dm2").build().toCentimetre();
 
-        Assert.assertEquals(excepted, actual, 0D);
+        Assertions.assertEquals(excepted,actual);
     }
 
     @Test
@@ -118,7 +118,7 @@ public class UnitSurfaceTest {
 
         final double actual = new UnitSurface(1,"dm2").build().toMillimetre();
 
-        Assert.assertEquals(excepted, actual, 0D);
+        Assertions.assertEquals(excepted,actual);
     }
 
     //Centimetre ->
@@ -128,7 +128,7 @@ public class UnitSurfaceTest {
 
         final double actual = new UnitSurface(1,"cm2").build().toKilometre();
 
-        Assert.assertEquals(excepted, actual, 0D);
+        Assertions.assertEquals(excepted,actual);
     }
 
     @Test
@@ -137,7 +137,7 @@ public class UnitSurfaceTest {
 
         final double actual = new UnitSurface(1,"cm2").build().toMetre();
 
-        Assert.assertEquals(excepted, actual, 0D);
+        Assertions.assertEquals(excepted,actual);
     }
 
     @Test
@@ -146,7 +146,7 @@ public class UnitSurfaceTest {
 
         final double actual = new UnitSurface(1,"cm2").build().toDecimetre();
 
-        Assert.assertEquals(excepted, actual, 0D);
+        Assertions.assertEquals(excepted,actual);
     }
 
     @Test
@@ -155,7 +155,7 @@ public class UnitSurfaceTest {
 
         final double actual = new UnitSurface(1,"cm2").build().toMillimetre();
 
-        Assert.assertEquals(excepted, actual, 0D);
+        Assertions.assertEquals(excepted,actual);
     }
 
     //Millimetre ->
@@ -165,7 +165,7 @@ public class UnitSurfaceTest {
 
         final double actual = new UnitSurface(1,"mm2").build().toKilometre();
 
-        Assert.assertEquals(excepted, actual, 0D);
+        Assertions.assertEquals(excepted,actual);
     }
 
     @Test
@@ -174,7 +174,7 @@ public class UnitSurfaceTest {
 
         final double actual = new UnitSurface(1,"mm2").build().toMetre();
 
-        Assert.assertEquals(excepted, actual, 0D);
+        Assertions.assertEquals(excepted,actual);
     }
 
     @Test
@@ -183,7 +183,7 @@ public class UnitSurfaceTest {
 
         final double actual = new UnitSurface(1,"mm2").build().toDecimetre();
 
-        Assert.assertEquals(excepted, actual, 0D);
+        Assertions.assertEquals(excepted,actual);
     }
 
     @Test
@@ -192,7 +192,7 @@ public class UnitSurfaceTest {
 
         final double actual = new UnitSurface(1,"mm2").build().toCentimetre();
 
-        Assert.assertEquals(excepted, actual, 0D);
+        Assertions.assertEquals(excepted,actual);
     }
 
 

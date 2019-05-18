@@ -1,6 +1,6 @@
-package pl.aogiri.challenges.unitconverter01;
+package pl.aogiri.challenges.unitconverter01.Units;
 
-public class UnitLength {
+public class UnitLength implements Unit{
     private double value;
     private String type;
 

@@ -2,7 +2,7 @@ package pl.aogiri.challenges.unitconverter01.test;
 
 import org.junit.Assert;
 import org.junit.Test;
-import pl.aogiri.challenges.unitconverter01.UnitLength;
+import pl.aogiri.challenges.unitconverter01.Units.UnitLength;
 
 
 public class UnitLengthTest {
